@@ -1,0 +1,54 @@
+#game-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 1002;
+  }
+
+#game-links a {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #game-links a:hover {
+    transform: scale(1.1);
+  }
+
+      #game-links a {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  #game-links a:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    background-color: #333; /* Change this to your desired background color */
+  }
+
+  #game-links .game-link {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+#game-links .game-image {
+max-width: 100px; /* Adjust as needed */
+max-height: 100px; /* Adjust as needed */
+margin-bottom: 10px;
+border-radius: 10px;
+    overflow: hidden;
+}
+    #game-cover {
+      margin: 10px;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 10px;
+      background-color: #555;
+      color: #fff;
+      transition: background-color 0.3s, color 0.3s;
+      position: relative;
+      z-index: 1002;
+    }

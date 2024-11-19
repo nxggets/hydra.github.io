@@ -1,0 +1,17 @@
+[
+  {
+    "name": "drift-boss",
+    "url": "/games/drift-boss/index.html",
+    "image": "/games/drift-boss/icon.png"
+  },
+  {
+    "name": "drifthunters",
+    "url": "/games/drifthunters/index.html",
+    "image": "/games/drifthunters/icon.png"
+  },
+  {
+    "name": "drivemad",
+    "url": "/games/drivemad/index.html",
+    "image": "../assets/notfound.png"
+  }
+]

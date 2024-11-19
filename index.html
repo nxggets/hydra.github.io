@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hydra Games</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/welcome.css" />
+  <link rel="stylesheet" href="style/games.css" />
+</head>
+<body>
+  <style>
+    /* customizable snowflake styling */
+    .snowflake {
+      color: #fff;
+      font-size: 1em;
+      font-family: Arial, sans-serif;
+      text-shadow: 0 0 5px #000;
+    }
+    .snowflake, .snowflake .inner {
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+    }
+    @keyframes snowflakes-fall {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(110vh); }
+    }
+    @keyframes snowflakes-shake {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(80px); }
+    }
+    .snowflake {
+      position: fixed;
+      top: -10%;
+      z-index: 9999;
+      -webkit-user-select: none;
+      user-select: none;
+      cursor: default;
+      animation-name: snowflakes-shake;
+      animation-duration: 3s;
+      animation-timing-function: ease-in-out;
+    }
+    .snowflake .inner {
+      animation-duration: 10s;
+      animation-name: snowflakes-fall;
+      animation-timing-function: linear;
+    }
+  </style>
+
+  <div class="snowflakes" aria-hidden="true">
+    <div class="snowflake"><div class="inner">❅</div></div>
+    <div class="snowflake"><div class="inner">❅</div></div>
+    <div class="snowflake"><div class="inner">❅</div></div>
+    <div class="snowflake"><div class="inner">❅</div></div>
+    <div class="snowflake"><div class="inner">❅</div></div>
+    <div class="snowflake"><div class="inner">❅</div></div>
+    <div class="snowflake"><div class="inner">❅</div></div>
+    <div class="snowflake"><div class="inner">❅</div></div>
+    <div class="snowflake"><div class="inner">❅</div></div>
+    <div class="snowflake"><div class="inner">❅</div></div>
+    <div class="snowflake"><div class="inner">❅</div></div>
+    <div class="snowflake"><div class="inner">❅</div></div>
+    <div class="snowflake"><div class="inner">❅</div></div>
+    <div class="snowflake"><div class="inner">❅</div></div>
+  </div>
+
+  <nav>
+    <div class="logo">
+      <img src="assets/iconbetter.png" alt="logo" />
+    </div>
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">Games</a></li>
+      <li><a href="#">More Games</a></li>
+      <li><a href="#">Games again lol</a></li>
+    </ul>
+  </nav>
+
+  <div class="menubar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <br>
+
+  <!-- START POPUP FOR WELCOME -->
+  <div class="modal" id="popup">
+    <article class="modal-container">
+      <header class="modal-container-header">
+        <h1 class="modal-container-title">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path fill="currentColor" d="M14 9V4H5v16h6.056c.328.417.724.785 1.18 1.085l1.39.915H3.993A.993.993 0 0 1 3 21.008V2.992C3 2.455 3.449 2 4.002 2h10.995L21 8v1h-7zm-2 2h9v5.949c0 .99-.501 1.916-1.336 2.465L16.5 21.498l-3.164-2.084A2.953 2.953 0 0 1 12 16.95V11zm2 5.949c0 .316.162.614.436.795l2.064 1.36 2.064-1.36a.954.954 0 0 0 .436-.795V13h-5v3.949z" />
+          </svg>
+          HYDRA
+        </h1>
+      </header>
+      <section class="modal-container-body rtf">
+        <h2>Welcome to HYDRA!</h2>
+        <p>I've rebranded and remade the classic <strong>OPAL98</strong>. I’ve been inactive in making OPAL98 better, so I decided to make a new games website that <strong>will be getting frequent updates</strong>.</p>
+        <h2>Enjoy the new <strong>OPAL98!</strong></h2>
+      </section>
+      <footer class="modal-container-footer">
+        <button class="button is-primary" onclick="close1()">Okay!</button>
+      </footer>
+    </article>
+  </div>
+  <!-- END POPUP FOR WELCOME -->
+
+  <!-- Game Links will be dynamically added here -->
+  <div id="game-link">
+    <div id="game-links">
+      <a id="game-cover" href="games/moto/motox3m6.html" class="game-link">
+        <img src="https://opal98-new.vercel.app/GamePhotos/moto6.jpg" alt="." class="game-image">
+        Moto X3M 6
+      </a>
+      <a id="game-cover" href="games/moto/motox3m5.html" class="game-link">
+        <img src="https://opal98-new.vercel.app/GamePhotos/moto5.png" alt="." class="game-image">
+        Moto X3M 5
+      </a>
+      <a id="game-cover" href="games/moto/motox3m4.html" class="game-link">
+        <img src="https://opal98-new.vercel.app/GamePhotos/moto4.jpeg" alt="." class="game-image">
+        Moto X3M 4
+      </a>
+      <a id="game-cover" href="games/moto/motox3m2.html" class="game-link">
+        <img src="https://opal98-new.vercel.app/GamePhotos/moto2.png" alt="." class="game-image">
+        Moto X3M 2
+      </a>
+      <a id="game-cover" href="games/moto/motox3m.html" class="game-link">
+        <img src="https://opal98-new.vercel.app/GamePhotos/moto.png" alt="." class="game-image">
+        Moto X3M
+      </a>
+      <!-- Dynamic Game Links will be inserted here -->
+    </div>
+  </div>
+  <div id="version-info"><img src="assets/3dgifmaker42575.gif" height="170px" width="170px"></div>
+  <div id="version-tooltip">v1 babyyyy</div>
+
+  <script>
+    fetch('/games/games.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Failed to fetch game list');
+      }
+      return response.json(); // Parse the JSON response
+    })
+    .then(games => {
+      const gameLinksContainer = document.getElementById('game-links');
+      
+      // Clear any existing content in case this script runs multiple times
+      gameLinksContainer.innerHTML = '';
+
+      // Loop through each game and create a custom list item
+      games.forEach(game => {
+        // Create the <a> element for each game
+        const gameLink = document.createElement('a');
+        gameLink.id = 'game-cover';
+        gameLink.href = `games.html?game=${encodeURIComponent(game.url)}`; // Append game URL to games.html
+        gameLink.classList.add('game-link');
+
+        // Create an <img> element for the game's cover image
+        const gameImage = document.createElement('img');
+        gameImage.src = game.image; // The image URL (from games.json)
+        gameImage.alt = game.name;  // Set alt text to the game's name
+        gameImage.classList.add('game-image');
+
+        // Create a <span> for the game name
+        const gameName = document.createElement('span');
+        gameName.textContent = game.name;
+        gameLink.appendChild(gameImage);
+        gameLink.appendChild(gameName);
+
+        // Append the game link to the game links container
+        gameLinksContainer.appendChild(gameLink);
+      });
+    })
+    .catch(error => {
+      console.error('Error fetching game list:', error);
+      const gameLinksContainer = document.getElementById('game-links');
+      gameLinksContainer.innerHTML = '<p>Failed to load game list. Please try again later. or fix your coding errors lmao</p>';
+    });
+  </script>
+</body>
+</html>

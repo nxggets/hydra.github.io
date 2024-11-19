@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game</title>
+  <style>
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .nav-button {
+      position: fixed;
+      width: 50px;
+      height: 50px;
+      background-color: rgba(0, 30, 255, 0.5);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      font-size: 24px;
+      line-height: 50px;
+      text-align: center;
+      cursor: pointer;
+      z-index: 9999;
+      transition: transform 0.3s ease;
+    }
+
+    .nav-button:hover {
+      transform: scale(1.2);
+      background-color: rgba(0, 18, 148, 0.8);
+    }
+
+    #home-button {
+      left: 10px;
+      top: 10px;
+    }
+
+    #fullscreen-button {
+      right: 10px;
+      top: 10px;
+    }
+
+    .nav-button i {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Home Button -->
+  <button id="home-button" class="nav-button" onclick="goHome()"><i class="fas fa-times"></i></button>
+
+  <!-- Fullscreen Button -->
+  <button id="fullscreen-button" class="nav-button" onclick="toggleFullScreen()"><i class="fas fa-expand"></i></button>
+
+  <!-- Embedding the Game File -->
+  <iframe id="game-iframe" src="" title="Your Game"></iframe>
+
+  <!-- Font Awesome Icons -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+  <script>
+    // Function to get query parameter by name
+    function getQueryParam(name) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(name);
+    }
+
+    // Get the game URL from the query parameter (the correct key is 'game')
+    const gameUrl = getQueryParam('game'); // Changed 'url' to 'game'
+
+    // If the game URL exists, set it in the iframe
+    if (gameUrl) {
+      document.getElementById('game-iframe').src = gameUrl;
+    } else {
+      alert('No game URL found!');
+    }
+
+    // Function to navigate back to the homepage
+    function goHome() {
+      window.location.href = 'index.html'; // Go back to homepage
+    }
+
+    // Toggle fullscreen for the iframe
+    function toggleFullScreen() {
+      const iframe = document.querySelector('iframe');
+      if (!document.fullscreenElement) {
+        iframe.requestFullscreen().catch(err => {
+          alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+        });
+      } else {
+        document.exitFullscreen();
+      }
+    }
+  </script>
+
+</body>
+</html>
