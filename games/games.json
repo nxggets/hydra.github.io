@@ -1,5 +1,130 @@
 [
   {
+    "name": "redball3",
+    "url": "/games/redball3/index.html",
+    "image": "/games/redball3/redball3.png"
+  },
+  {
+    "name": "redball4",
+    "url": "/games/redball4/index.html",
+    "image": "/games/redball4/redball4.webp"
+  },
+  {
+    "name": "redball4vol2",
+    "url": "/games/redball4vol2/index.html",
+    "image": "/games/redball4vol2/redball4vol2.webp"
+  },
+  {
+    "name": "redball4vol3",
+    "url": "/games/redball4vol3/index.html",
+    "image": "/games/redball4vol3/redball4vol3.webp"
+  },
+  {
+    "name": "retrobowl",
+    "url": "/games/retrobowl/index.html",
+    "image": "/games/retrobowl/retrobowl.ico"
+  },
+  {
+    "name": "run3",
+    "url": "/games/run3/index.html",
+    "image": "/games/run3/icon.jpeg"
+  },
+  {
+    "name": "slope",
+    "url": "/games/slope/index.html",
+    "image": "/games/slope/slope4.jpeg"
+  },
+  {
+    "name": "snowrider3d",
+    "url": "/games/snowrider3d/index.html",
+    "image": "/games/snowrider3d/snow.png"
+  },
+  {
+    "name": "soccerrandom",
+    "url": "/games/soccerrandom/index.html",
+    "image": "/games/soccerrandom/test.png"
+  },
+  {
+    "name": "stickman-hook",
+    "url": "/games/stickman-hook/index.html",
+    "image": "/games/stickman-hook/icon.jpg"
+  },
+  {
+    "name": "subway-surfers-ny",
+    "url": "/games/subway-surfers-ny/index.html",
+    "image": "/games/subway-surfers-ny/NewYorkIcon.png"
+  },
+  {
+    "name": "superhot",
+    "url": "/games/superhot/index.html",
+    "image": "/games/superhot/icon.png"
+  },
+  {
+    "name": "templerun2",
+    "url": "/games/templerun2/index.html",
+    "image": "/games/templerun2/079dea52d8f43464bedd59bc35cc7999.jpg"
+  },
+  {
+    "name": "tube-jumpers",
+    "url": "/games/tube-jumpers/index.html",
+    "image": "/games/tube-jumpers/cover.svg"
+  },
+  {
+    "name": "tunnelrush",
+    "url": "/games/tunnelrush/index.html",
+    "image": "/games/tunnelrush/tunnel.jpg"
+  },
+  {
+    "name": "vex",
+    "url": "/games/vex/index.html",
+    "image": "/games/vex/icon.png"
+  },
+  {
+    "name": "vex2",
+    "url": "/games/vex2/index.html",
+    "image": "/games/vex2/icon.png"
+  },
+  {
+    "name": "vex3",
+    "url": "/games/vex3/index.html",
+    "image": "/games/vex3/icon.png"
+  },
+  {
+    "name": "vex4",
+    "url": "/games/vex4/index.html",
+    "image": "/games/vex4/vex-4.jpg"
+  },
+  {
+    "name": "vex5",
+    "url": "/games/vex5/index.html",
+    "image": "/games/vex5/icon.png"
+  },
+  {
+    "name": "vex6",
+    "url": "/games/vex6/index.html",
+    "image": "/games/vex6/icon.png"
+  },
+  {
+    "name": "vex7",
+    "url": "/games/vex7/index.html",
+    "image": "/games/vex7/favicon.ico"
+  },
+  {
+    "name": "wordle",
+    "url": "/games/wordle/index.html",
+    "image": "/games/wordle/icon.png"
+  },
+  {
+    "name": "worldhardestgame2",
+    "url": "/games/worldhardestgame2/index.html",
+    "image": "/games/worldhardestgame2/the-worlds-hardest-game-2.jpg"
+  },
+  {
+    "name": "worldshardestgame",
+    "url": "/games/worldshardestgame/index.html",
+    "image": "/games/worldshardestgame/icon.png"
+  },
+  {
     "name": "fnaf",
     "url": "/games/fnaf/index.html",
     "image": "/games/fnaf/splash.jpg"
