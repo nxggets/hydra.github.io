@@ -1,5 +1,60 @@
 [
   {
+    "name": "fnaf",
+    "url": "/games/fnaf/index.html",
+    "image": "/games/fnaf/splash.jpg"
+  },
+  {
+    "name": "fnaf2",
+    "url": "/games/fnaf2/index.html",
+    "image": "../assets/notfound.png"
+  },
+  {
+    "name": "fnaf3",
+    "url": "/games/fnaf3/index.html",
+    "image": "../assets/notfound.png"
+  },
+  {
+    "name": "fnaf4",
+    "url": "/games/fnaf4/index.html",
+    "image": "../assets/notfound.png"
+  },
+  {
+    "name": "funnyshooter",
+    "url": "/games/funnyshooter/index.html",
+    "image": "/games/funnyshooter/favicon.ico"
+  },
+  {
+    "name": "funnyshooter2",
+    "url": "/games/funnyshooter2/index.html",
+    "image": "/games/funnyshooter2/894abba63a6b23fed823f404831f444f.jpeg"
+  },
+  {
+    "name": "getawayshooter",
+    "url": "/games/getawayshooter/index.html",
+    "image": "/games/getawayshooter/Untitled.jpeg"
+  },
+  {
+    "name": "gunmayhem",
+    "url": "/games/gunmayhem/index.html",
+    "image": "/games/gunmayhem/icon.png"
+  },
+  {
+    "name": "gunmayhem2",
+    "url": "/games/gunmayhem2/index.html",
+    "image": "/games/gunmayhem2/icon.png"
+  },
+  {
+    "name": "gunmayhemredux",
+    "url": "/games/gunmayhemredux/index.html",
+    "image": "/games/gunmayhemredux/icon.png"
+  },
+  {
+    "name": "happywheels",
+    "url": "/games/happywheels/index.html",
+    "image": "/games/happywheels/Untitled.jpeg"
+  },
+  {
     "name": "ducklife1",
     "url": "/games/ducklife1/index.html",
     "image": "/games/ducklife1/ducklife1.png"
