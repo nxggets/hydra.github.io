@@ -1,5 +1,80 @@
 [
   {
+    "name": "achieveunlocked",
+    "url": "/games/achieveunlocked/index.html",
+    "image": "/games/achieveunlocked/icon.png"
+  },
+  {
+    "name": "achieveunlocked2",
+    "url": "/games/achieveunlocked2/index.html",
+    "image": "/games/achieveunlocked2/icon.png"
+  },
+  {
+    "name": "amongus",
+    "url": "/games/amongus/index.html",
+    "image": "/games/amongus/amgojs]_.png"
+  },
+  {
+    "name": "baldis-basics",
+    "url": "/games/baldis-basics/index.html",
+    "image": "/games/baldis-basics/splash.png"
+  },
+  {
+    "name": "basketball-stars",
+    "url": "/games/basketball-stars/index.html",
+    "image": "/games/basketball-stars/icon.png"
+  },
+  {
+    "name": "basketbros",
+    "url": "/games/basketbros/index.html",
+    "image": "/games/basketbros/favicon.png"
+  },
+  {
+    "name": "basketrandom",
+    "url": "/games/basketrandom/index.html",
+    "image": "/games/basketrandom/test.png"
+  },
+  {
+    "name": "bitlife",
+    "url": "/games/bitlife/index.html",
+    "image": "/games/bitlife/bitlife.png"
+  },
+  {
+    "name": "bobtherobber2",
+    "url": "/games/bobtherobber2/index.html",
+    "image": "/games/bobtherobber2/favicon.ico"
+  },
+  {
+    "name": "boxingrandom",
+    "url": "/games/boxingrandom/index.html",
+    "image": "/games/boxingrandom/512x340.jpg"
+  },
+  {
+    "name": "cookieclicker",
+    "url": "/games/cookieclicker/index.html",
+    "image": "../assets/notfound.png"
+  },
+  {
+    "name": "crossyroad",
+    "url": "/games/crossyroad/index.html",
+    "image": "/games/crossyroad/chicken.png"
+  },
+  {
+    "name": "cuttherope",
+    "url": "/games/cuttherope/index.html",
+    "image": "/games/cuttherope/icon.png"
+  },
+  {
+    "name": "cuttherope-holiday",
+    "url": "/games/cuttherope-holiday/index.html",
+    "image": "/games/cuttherope-holiday/Holiday_Gift.webp"
+  },
+  {
+    "name": "death-run-3d",
+    "url": "/games/death-run-3d/index.html",
+    "image": "../assets/notfound.png"
+  },
+  {
     "name": "redball3",
     "url": "/games/redball3/index.html",
     "image": "/games/redball3/redball3.png"
