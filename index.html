@@ -124,6 +124,9 @@
   <div id="version-tooltip">v1 babyyyy</div>
 
   <script>
+    function close1() {
+
+    }
     fetch('/games/games.json')
   .then(response => {
     if (!response.ok) {
@@ -174,7 +177,27 @@
     const totalGamesElement = document.querySelector('footer h1');
     totalGamesElement.textContent = 'TOTAL GAMES: Error loading games';
   });
+  function close1() {
+    // Apply the fadeOut animation before hiding the modal
+    const modal = document.getElementById('popup');
+    
+    // Apply the fade-out animation
+    modal.style.animation = 'fadeOut 1s ease-out forwards';
 
+    // Wait for the animation to finish before hiding the modal
+    setTimeout(() => {
+      modal.style.display = 'none'; // Hide the modal after animation ends
+      document.body.style.overflow = 'auto'; // Enable scrolling again
+    }, 1000); // Timeout should match the duration of the fadeOut animation
+  }
+
+  // Show the modal when the page loads or based on any event
+  window.onload = function() {
+    const modal = document.getElementById('popup');
+    modal.style.display = 'flex'; // Show the modal
+    modal.style.animation = 'fadeIn 1s ease-out forwards'; // Show fade-in animation
+    document.body.style.overflow = 'hidden'; // Disable scrolling when modal is open
+  };
   </script>
 </body>
 </html>
