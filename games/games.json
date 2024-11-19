@@ -1,5 +1,115 @@
 [
   {
+    "name": "learntofly",
+    "url": "/games/learntofly/index.html",
+    "image": "/games/learntofly/icon.png"
+  },
+  {
+    "name": "learntofly2",
+    "url": "/games/learntofly2/index.html",
+    "image": "/games/learntofly2/logo.jpg"
+  },
+  {
+    "name": "learntoflyidle",
+    "url": "/games/learntoflyidle/index.html",
+    "image": "/games/learntoflyidle/icon.jpg"
+  },
+  {
+    "name": "papasburgeria",
+    "url": "/games/papasburgeria/index.html",
+    "image": "/games/papasburgeria/images.jpeg"
+  },
+  {
+    "name": "papasfreezeria",
+    "url": "/games/papasfreezeria/index.html",
+    "image": "/games/papasfreezeria/images.jpeg"
+  },
+  {
+    "name": "papaspizzeria",
+    "url": "/games/papaspizzeria/index.html",
+    "image": "/games/papaspizzeria/images.jpeg"
+  },
+  {
+    "name": "pizzatower",
+    "url": "/games/pizzatower/index.html",
+    "image": "../assets/notfound.png"
+  },
+  {
+    "name": "riddleschool",
+    "url": "/games/riddleschool/index.html",
+    "image": "/games/riddleschool/RiddleSchool2.png"
+  },
+  {
+    "name": "riddleschool2",
+    "url": "/games/riddleschool2/index.html",
+    "image": "/games/riddleschool2/icon.png"
+  },
+  {
+    "name": "riddleschool3",
+    "url": "/games/riddleschool3/index.html",
+    "image": "/games/riddleschool3/riddle-school-3.webp"
+  },
+  {
+    "name": "riddleschool4",
+    "url": "/games/riddleschool4/index.html",
+    "image": "/games/riddleschool4/Untitled.jpeg"
+  },
+  {
+    "name": "riddleschool5",
+    "url": "/games/riddleschool5/index.html",
+    "image": "/games/riddleschool5/Untitled.jpeg"
+  },
+  {
+    "name": "riddleschooltransfer",
+    "url": "/games/riddleschooltransfer/index.html",
+    "image": "/games/riddleschooltransfer/Untitled.jpeg"
+  },
+  {
+    "name": "riddleschooltransfer2",
+    "url": "/games/riddleschooltransfer2/index.html",
+    "image": "/games/riddleschooltransfer2/aUntitled.jpeg"
+  },
+  {
+    "name": "rooftopsnipers",
+    "url": "/games/rooftopsnipers/index.html",
+    "image": "/games/rooftopsnipers/logo.png"
+  },
+  {
+    "name": "rooftopsnipers2",
+    "url": "/games/rooftopsnipers2/index.html",
+    "image": "/games/rooftopsnipers2/1-small.jpg"
+  },
+  {
+    "name": "timeshooter1",
+    "url": "/games/timeshooter1/index.html",
+    "image": "/games/timeshooter1/logo.png"
+  },
+  {
+    "name": "timeshooter2",
+    "url": "/games/timeshooter2/index.html",
+    "image": "/games/timeshooter2/ts2.jpg"
+  },
+  {
+    "name": "timeshooter3",
+    "url": "/games/timeshooter3/index.html",
+    "image": "/games/timeshooter3/logo.png"
+  },
+  {
+    "name": "tinyfishing",
+    "url": "/games/tinyfishing/index.html",
+    "image": "/games/tinyfishing/thumb.png"
+  },
+  {
+    "name": "watermelongame",
+    "url": "/games/watermelongame/index.html",
+    "image": "../assets/notfound.png"
+  },
+  {
+    "name": "xx142-b2.exe",
+    "url": "/games/xx142-b2.exe/index.html",
+    "image": "/games/xx142-b2.exe/icon.png"
+  },
+  {
     "name": "achieveunlocked",
     "url": "/games/achieveunlocked/index.html",
     "image": "/games/achieveunlocked/icon.png"

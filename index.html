@@ -120,50 +120,61 @@
   </div>
   <div id="version-info"><img src="assets/3dgifmaker42575.gif" height="170px" width="170px"></div>
   <div id="version-tooltip">v1 babyyyy</div>
-
+<footer>
+  <h1> TOTAL GAMES:</h1>
+</footer>
   <script>
     fetch('/games/games.json')
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Failed to fetch game list');
-      }
-      return response.json(); // Parse the JSON response
-    })
-    .then(games => {
-      const gameLinksContainer = document.getElementById('game-links');
-      
-      // Clear any existing content in case this script runs multiple times
-      gameLinksContainer.innerHTML = '';
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Failed to fetch game list');
+    }
+    return response.json(); // Parse the JSON response
+  })
+  .then(games => {
+    const gameLinksContainer = document.getElementById('game-links');
+    const totalGamesElement = document.querySelector('footer h1');  // Get the <h1> in footer
 
-      // Loop through each game and create a custom list item
-      games.forEach(game => {
-        // Create the <a> element for each game
-        const gameLink = document.createElement('a');
-        gameLink.id = 'game-cover';
-        gameLink.href = `games.html?game=${encodeURIComponent(game.url)}`; // Append game URL to games.html
-        gameLink.classList.add('game-link');
+    // Clear any existing content in case this script runs multiple times
+    gameLinksContainer.innerHTML = '';
 
-        // Create an <img> element for the game's cover image
-        const gameImage = document.createElement('img');
-        gameImage.src = game.image; // The image URL (from games.json)
-        gameImage.alt = game.name;  // Set alt text to the game's name
-        gameImage.classList.add('game-image');
+    // Loop through each game and create a custom list item
+    games.forEach(game => {
+      // Create the <a> element for each game
+      const gameLink = document.createElement('a');
+      gameLink.id = 'game-cover';
+      gameLink.href = `games.html?game=${encodeURIComponent(game.url)}`; // Append game URL to games.html
+      gameLink.classList.add('game-link');
 
-        // Create a <span> for the game name
-        const gameName = document.createElement('span');
-        gameName.textContent = game.name;
-        gameLink.appendChild(gameImage);
-        gameLink.appendChild(gameName);
+      // Create an <img> element for the game's cover image
+      const gameImage = document.createElement('img');
+      gameImage.src = game.image; // The image URL (from games.json)
+      gameImage.alt = game.name;  // Set alt text to the game's name
+      gameImage.classList.add('game-image');
 
-        // Append the game link to the game links container
-        gameLinksContainer.appendChild(gameLink);
-      });
-    })
-    .catch(error => {
-      console.error('Error fetching game list:', error);
-      const gameLinksContainer = document.getElementById('game-links');
-      gameLinksContainer.innerHTML = '<p>Failed to load game list. Please try again later. or fix your coding errors lmao</p>';
+      // Create a <span> for the game name
+      const gameName = document.createElement('span');
+      gameName.textContent = game.name;
+      gameLink.appendChild(gameImage);
+      gameLink.appendChild(gameName);
+
+      // Append the game link to the game links container
+      gameLinksContainer.appendChild(gameLink);
     });
+
+    // Update the total games count in the footer
+    totalGamesElement.textContent = `TOTAL GAMES: ${games.length}`;
+  })
+  .catch(error => {
+    console.error('Error fetching game list:', error);
+    const gameLinksContainer = document.getElementById('game-links');
+    gameLinksContainer.innerHTML = '<p>Failed to load game list. Please try again later. or fix your coding errors lmao</p>';
+    
+    // Set the footer message to indicate an error
+    const totalGamesElement = document.querySelector('footer h1');
+    totalGamesElement.textContent = 'TOTAL GAMES: Error loading games';
+  });
+
   </script>
 </body>
 </html>

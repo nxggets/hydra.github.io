@@ -66,7 +66,7 @@ const updateGamesJson = () => {
 
   // Filter out any games that are already in the existing list (based on game name)
   const newGamesUnique = newGamesList.filter(game => !existingGameNames.includes(game.name));
-  //console.log("New unique games:", newGamesUnique.length);
+  console.log("Newly added games:", newGamesUnique.length);
 
   // Combine the new games with the existing games, ensuring new ones are at the top
   const combinedGamesList = [...newGamesUnique, ...existingGames];
