@@ -1,5 +1,35 @@
 [
   {
+    "name": "ducklife1",
+    "url": "/games/ducklife1/index.html",
+    "image": "/games/ducklife1/ducklife1.png"
+  },
+  {
+    "name": "ducklife2",
+    "url": "/games/ducklife2/index.html",
+    "image": "/games/ducklife2/ducklife2.png"
+  },
+  {
+    "name": "ducklife3",
+    "url": "/games/ducklife3/index.html",
+    "image": "/games/ducklife3/ducklife3.png"
+  },
+  {
+    "name": "ducklife4",
+    "url": "/games/ducklife4/index.html",
+    "image": "/games/ducklife4/icon.png"
+  },
+  {
+    "name": "ducklife5",
+    "url": "/games/ducklife5/index.html",
+    "image": "/games/ducklife5/ducklife5.png"
+  },
+  {
+    "name": "ducklife6",
+    "url": "/games/ducklife6/index.html",
+    "image": "/games/ducklife6/ducklife5.png"
+  },
+  {
     "name": "drift-boss",
     "url": "/games/drift-boss/index.html",
     "image": "/games/drift-boss/icon.png"
