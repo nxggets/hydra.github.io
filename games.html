@@ -5,17 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Game</title>
   <style>
+    /* Full-screen iframe style */
     iframe {
       position: absolute;
-      top: 0;
+      top: 75px; /* Start the iframe 75px below the top to prevent overlap with navbar */
       left: 0;
       width: 100%;
-      height: 100%;
+      height: calc(100vh - 75px); /* Adjust the iframe height to fill the remaining screen space after navbar */
       border: none;
     }
 
-    .nav-button {
+    /* Navbar container to hold buttons and logo */
+    .navbar {
       position: fixed;
+      top: 5px; /* Offset the navbar slightly from the top */
+      left: 10px; /* Optional, adjust for padding */
+      width: calc(100% - 40px); /* Make navbar take full width with some padding */
+      padding: 10px;
+      border-radius: 20px; /* Rounded corners for the navbar */
+      display: flex;
+      justify-content: flex-start; /* Align buttons to the left */
+      align-items: center; /* Center items vertically */
+      z-index: 9999;
+
+      /* Rainbow animation for background */
+      background-size: 500% 100%; /* Make the gradient very large to scroll smoothly */
+      animation: colorRotate 2s linear 0s infinite;
+    }
+
+    @keyframes colorRotate {
+      from {
+        background: #21099c;
+      }
+      10% {
+        background: #3a26a3;
+      }
+      50% {
+        background: #5945c2;
+      }
+      75% {
+        background: #6f58e5;
+      }
+      100% {
+        background: #4b28ff;
+      }
+    }
+
+    /* Style for individual nav buttons */
+    .nav-button {
       width: 50px;
       height: 50px;
       background-color: rgba(0, 30, 255, 0.5);
@@ -26,39 +63,50 @@
       line-height: 50px;
       text-align: center;
       cursor: pointer;
-      z-index: 9999;
+      margin-right: 10px; /* Space between buttons */
       transition: transform 0.3s ease;
     }
 
+    /* Hover effect for buttons */
     .nav-button:hover {
       transform: scale(1.2);
       background-color: rgba(0, 18, 148, 0.8);
     }
 
-    #home-button {
-      left: 10px;
-      top: 10px;
-    }
-
-    #fullscreen-button {
-      right: 10px;
-      top: 10px;
-    }
-
+    /* Font Awesome icons container */
     .nav-button i {
       display: flex;
       justify-content: center;
       align-items: center;
     }
+
+    /* Logo styling */
+    .logo {
+      width: 110px;
+      height: 55px;
+      margin-left: auto; /* Align logo to the right */
+      margin-top: 1px; /* Optional: move the logo slightly down */
+    }
+
   </style>
 </head>
 <body>
 
-  <!-- Home Button -->
-  <button id="home-button" class="nav-button" onclick="goHome()"><i class="fas fa-times"></i></button>
+  <!-- Navbar with buttons and logo -->
+  <div class="navbar">
+    <!-- Home Button -->
+    <button id="home-button" class="nav-button" onclick="goHome()">
+      <i class="fas fa-home"></i>
+    </button>
 
-  <!-- Fullscreen Button -->
-  <button id="fullscreen-button" class="nav-button" onclick="toggleFullScreen()"><i class="fas fa-expand"></i></button>
+    <!-- Fullscreen Button -->
+    <button id="fullscreen-button" class="nav-button" onclick="toggleFullScreen()">
+      <i class="fas fa-expand"></i>
+    </button>
+    <h2>HYDRA FOR THE WIN #2024 LMAOO</h2>
+    <!-- Logo -->
+    <img src="assets/iconbetter.png" alt="Logo" class="logo"> <!-- Update the path to your logo image -->
+  </div>
 
   <!-- Embedding the Game File -->
   <iframe id="game-iframe" src="" title="Your Game"></iframe>
@@ -80,7 +128,7 @@
     if (gameUrl) {
       document.getElementById('game-iframe').src = gameUrl;
     } else {
-      alert('No game URL found!');
+      // alert('No game URL found!');
     }
 
     // Function to navigate back to the homepage
