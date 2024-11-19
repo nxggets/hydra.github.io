@@ -1,5 +1,105 @@
 [
   {
+    "name": "fancypantsadventures",
+    "url": "/games/fancypantsadventures/index.html",
+    "image": "/games/fancypantsadventures/fpa.webp"
+  },
+  {
+    "name": "fancypantsadventures2",
+    "url": "/games/fancypantsadventures2/index.html",
+    "image": "/games/fancypantsadventures2/fpa2.avif"
+  },
+  {
+    "name": "fireboywatergirl",
+    "url": "/games/fireboywatergirl/index.html",
+    "image": "/games/fireboywatergirl/icon-60x60.png"
+  },
+  {
+    "name": "fireboywatergirl2",
+    "url": "/games/fireboywatergirl2/index.html",
+    "image": "/games/fireboywatergirl2/Untitled.jpeg"
+  },
+  {
+    "name": "fireboywatergirl3",
+    "url": "/games/fireboywatergirl3/index.html",
+    "image": "/games/fireboywatergirl3/icon.png"
+  },
+  {
+    "name": "fireboywatergirl4",
+    "url": "/games/fireboywatergirl4/index.html",
+    "image": "/games/fireboywatergirl4/300.jpg"
+  },
+  {
+    "name": "flappybird",
+    "url": "/games/flappybird/index.html",
+    "image": "/games/flappybird/icon.png"
+  },
+  {
+    "name": "fruitninja",
+    "url": "/games/fruitninja/index.html",
+    "image": "/games/fruitninja/FruitNinjaTeaser.jpg"
+  },
+  {
+    "name": "geometrydash",
+    "url": "/games/geometrydash/index.html",
+    "image": "/games/geometrydash/icon.png"
+  },
+  {
+    "name": "helixjump",
+    "url": "/games/helixjump/index.html",
+    "image": "/games/helixjump/gameIcon.png"
+  },
+  {
+    "name": "hexgl",
+    "url": "/games/hexgl/index.html",
+    "image": "/games/hexgl/favicon.png"
+  },
+  {
+    "name": "hextris",
+    "url": "/games/hextris/index.html",
+    "image": "/games/hextris/favicon.ico"
+  },
+  {
+    "name": "hillclimbracing2",
+    "url": "/games/hillclimbracing2/index.html",
+    "image": "/games/hillclimbracing2/cover.svg"
+  },
+  {
+    "name": "holeio",
+    "url": "/games/holeio/404.html",
+    "image": "/games/holeio/favicon.ico"
+  },
+  {
+    "name": "idlebreakout",
+    "url": "/games/idlebreakout/index.html",
+    "image": "/games/idlebreakout/image.png"
+  },
+  {
+    "name": "jetpackjoyride",
+    "url": "/games/jetpackjoyride/index.html",
+    "image": "/games/jetpackjoyride/logo.jpeg"
+  },
+  {
+    "name": "knifehit",
+    "url": "/games/knifehit/index.html",
+    "image": "/games/knifehit/ag-branding-animation.gif"
+  },
+  {
+    "name": "lazyjump3d",
+    "url": "/games/lazyjump3d/index.html",
+    "image": "/games/lazyjump3d/icon.png"
+  },
+  {
+    "name": "madalincars",
+    "url": "/games/madalincars/index.html",
+    "image": "/games/madalincars/icon.png"
+  },
+  {
+    "name": "ngon",
+    "url": "/games/ngon/index.html",
+    "image": "/games/ngon/favicon.ico"
+  },
+  {
     "name": "learntofly",
     "url": "/games/learntofly/index.html",
     "image": "/games/learntofly/icon.png"
