@@ -14,16 +14,16 @@
   }
 
       #game-links a {
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: transform 0.45s ease-in-out, box-shadow 0.45s ease-in-out, background-color 0.45s ease-in-out;
     position: relative;
     overflow: hidden;
     z-index: 1;
   }
 
   #game-links a:hover {
-    transform: scale(1.1) rotate(5deg);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-    background-color: #333; /* Change this to your desired background color */
+    transform: scale(1.1) rotate(6deg);
+    box-shadow: 0 0 20px rgba(0, 21, 255);
+    background-color: #0d2b76; /* Change this to your desired background color */
   }
 
   #game-links .game-link {
@@ -46,7 +46,7 @@ border-radius: 10px;
       text-align: center;
       text-decoration: none;
       border-radius: 10px;
-      background-color: #555;
+      background-color: #2347a3;
       color: #fff;
       transition: background-color 0.3s, color 0.3s;
       position: relative;

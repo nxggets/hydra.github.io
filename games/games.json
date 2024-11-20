@@ -1,5 +1,100 @@
 [
   {
+    "name": "bubbleshooter",
+    "url": "/games/bubbleshooter/index.html",
+    "image": "/games/bubbleshooter/cover.svg"
+  },
+  {
+    "name": "burritobison",
+    "url": "/games/burritobison/index.html",
+    "image": "../assets/notfound.png"
+  },
+  {
+    "name": "clickerheroes",
+    "url": "/games/clickerheroes/404.html",
+    "image": "/games/clickerheroes/clicker-heroes.png"
+  },
+  {
+    "name": "linerider",
+    "url": "/games/linerider/index.html",
+    "image": "/games/linerider/boosh.png"
+  },
+  {
+    "name": "littlealchemy",
+    "url": "/games/littlealchemy/index.html",
+    "image": "/games/littlealchemy/favicon.ico"
+  },
+  {
+    "name": "pandemic",
+    "url": "/games/pandemic/index.html",
+    "image": "/games/pandemic/sddefault.jpg"
+  },
+  {
+    "name": "pandemic2",
+    "url": "/games/pandemic2/index.html",
+    "image": "/games/pandemic2/pan2.webp"
+  },
+  {
+    "name": "pool",
+    "url": "/games/pool/index.html",
+    "image": "/games/pool/cover.svg"
+  },
+  {
+    "name": "stickmanboost",
+    "url": "/games/stickmanboost/index.html",
+    "image": "/games/stickmanboost/icon-256.png"
+  },
+  {
+    "name": "stickmanclimb",
+    "url": "/games/stickmanclimb/index.html",
+    "image": "/games/stickmanclimb/Anja-Eliane-accent002.png"
+  },
+  {
+    "name": "stickmangolf",
+    "url": "/games/stickmangolf/index.html",
+    "image": "/games/stickmangolf/gold.png"
+  },
+  {
+    "name": "tabs",
+    "url": "/games/tabs/index.html",
+    "image": "/games/tabs/unnamed.png"
+  },
+  {
+    "name": "adarkroom",
+    "url": "/games/adarkroom/index.html",
+    "image": "/games/adarkroom/favicon.ico"
+  },
+  {
+    "name": "gdlite",
+    "url": "/games/gdlite/index.html",
+    "image": "../assets/notfound.png"
+  },
+  {
+    "name": "golddiggerfrvr",
+    "url": "/games/golddiggerfrvr/index.html",
+    "image": "/games/golddiggerfrvr/images.jpeg"
+  },
+  {
+    "name": "golddiggerfrvr (1)",
+    "url": "/games/golddiggerfrvr (1)/index.html",
+    "image": "/games/golddiggerfrvr (1)/images.jpeg"
+  },
+  {
+    "name": "snake",
+    "url": "/games/snake/index.html",
+    "image": "/games/snake/snake.png"
+  },
+  {
+    "name": "supersmashbros",
+    "url": "/games/supersmashbros/index.html",
+    "image": "/games/supersmashbros/logo.jpg"
+  },
+  {
+    "name": "supersmashflash",
+    "url": "/games/supersmashflash/index.html",
+    "image": "/games/supersmashflash/ssf.jpg"
+  },
+  {
     "name": "boxingphysics2",
     "url": "/games/boxingphysics2/index.html",
     "image": "/games/boxingphysics2/icon.png"
