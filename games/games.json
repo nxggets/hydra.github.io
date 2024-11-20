@@ -1,5 +1,65 @@
 [
   {
+    "name": "1on1soccer",
+    "url": "/games/1on1soccer/index.html",
+    "image": "/games/1on1soccer/logo.jpg"
+  },
+  {
+    "name": "2048",
+    "url": "/games/2048/index.html",
+    "image": "/games/2048/icon.png"
+  },
+  {
+    "name": "badicecream",
+    "url": "/games/badicecream/index.html",
+    "image": "/games/badicecream/bad-ice-cream.png"
+  },
+  {
+    "name": "badicecream2",
+    "url": "/games/badicecream2/index.html",
+    "image": "/games/badicecream2/bad-ice-cream-2.png"
+  },
+  {
+    "name": "badicecream3",
+    "url": "/games/badicecream3/index.html",
+    "image": "/games/badicecream3/bad-ice-cream-3.png"
+  },
+  {
+    "name": "badpiggies",
+    "url": "/games/badpiggies/index.html",
+    "image": "/games/badpiggies/badpiggies.png"
+  },
+  {
+    "name": "btd",
+    "url": "/games/btd/index.html",
+    "image": "/games/btd/logo.webp"
+  },
+  {
+    "name": "btd2",
+    "url": "/games/btd2/index.html",
+    "image": "/games/btd2/logo.webp"
+  },
+  {
+    "name": "btd3",
+    "url": "/games/btd3/index.html",
+    "image": "/games/btd3/icon.png"
+  },
+  {
+    "name": "btd4",
+    "url": "/games/btd4/index.html",
+    "image": "/games/btd4/logo.jpg"
+  },
+  {
+    "name": "btd5",
+    "url": "/games/btd5/index.html",
+    "image": "/games/btd5/logo.jpg"
+  },
+  {
+    "name": "btd6",
+    "url": "/games/btd6/index.html",
+    "image": "/games/btd6/uwu.png"
+  },
+  {
     "name": "fancypantsadventures",
     "url": "/games/fancypantsadventures/index.html",
     "image": "/games/fancypantsadventures/fpa.webp"
