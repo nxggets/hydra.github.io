@@ -31,7 +31,7 @@ const getGamesList = () => {
       const gameUrl = `/games/${gameDir}/${gameHtmlFile}`;
 
       // Look for an image file (e.g., .jpg, .jpeg, .png, .gif, .webp, etc.)
-      const imageFile = gameFiles.find(file => /\.(jpg|jpeg|png|gif|webp|bmp|tiff|svg||avif|ico)$/i.test(file));
+      const imageFile = gameFiles.find(file => /\.(jpg|jpeg|png|gif|webp|bmp|tiff|svg||avif|ico|svg)$/i.test(file));
 
 
       // If an image is found, use it; otherwise, use a default placeholder image

@@ -18,7 +18,7 @@
     /* Navbar container to hold buttons and logo */
     .navbar {
       position: fixed;
-      top: 5px; /* Offset the navbar slightly from the top */
+      top: 2px; /* Offset the navbar slightly from the top */
       left: 10px; /* Optional, adjust for padding */
       width: calc(100% - 40px); /* Make navbar take full width with some padding */
       padding: 10px;
@@ -30,26 +30,9 @@
 
       /* Rainbow animation for background */
       background-size: 500% 100%; /* Make the gradient very large to scroll smoothly */
-      animation: colorRotate 2s linear 0s infinite;
+      background-color: #4b28ff;
     }
 
-    @keyframes colorRotate {
-      from {
-        background: #21099c;
-      }
-      10% {
-        background: #3a26a3;
-      }
-      50% {
-        background: #5945c2;
-      }
-      75% {
-        background: #6f58e5;
-      }
-      100% {
-        background: #4b28ff;
-      }
-    }
 
     /* Style for individual nav buttons */
     .nav-button {

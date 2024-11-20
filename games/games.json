@@ -1,5 +1,75 @@
 [
   {
+    "name": "boxingphysics2",
+    "url": "/games/boxingphysics2/index.html",
+    "image": "/games/boxingphysics2/icon.png"
+  },
+  {
+    "name": "championisland",
+    "url": "/games/championisland/index.html",
+    "image": "/games/championisland/CTA-Archery-174787996-174787824.png"
+  },
+  {
+    "name": "cluster-rush",
+    "url": "/games/cluster-rush/index.html",
+    "image": "/games/cluster-rush/icon.jpg"
+  },
+  {
+    "name": "colorswitch",
+    "url": "/games/colorswitch/index.html",
+    "image": "/games/colorswitch/colorswitch.png"
+  },
+  {
+    "name": "doodlejump",
+    "url": "/games/doodlejump/index.html",
+    "image": "/games/doodlejump/icon.png"
+  },
+  {
+    "name": "60sburgerrun",
+    "url": "/games/60sburgerrun/index.html",
+    "image": "/games/60sburgerrun/icon.png"
+  },
+  {
+    "name": "adventure-capitalist",
+    "url": "/games/adventure-capitalist/index.html",
+    "image": "/games/adventure-capitalist/logo.webp"
+  },
+  {
+    "name": "awesometanks",
+    "url": "/games/awesometanks/index.html",
+    "image": "/games/awesometanks/cover.svg"
+  },
+  {
+    "name": "paperio",
+    "url": "/games/paperio/index.html",
+    "image": "/games/paperio/icon.png"
+  },
+  {
+    "name": "slope2",
+    "url": "/games/slope2/index.html",
+    "image": "/games/slope2/fullscreen-button.png"
+  },
+  {
+    "name": "slope3",
+    "url": "/games/slope3/index.html",
+    "image": "/games/slope3/cover.svg"
+  },
+  {
+    "name": "theimpossiblegame",
+    "url": "/games/theimpossiblegame/index.html",
+    "image": "/games/theimpossiblegame/image.jpg"
+  },
+  {
+    "name": "theimpossiblequiz",
+    "url": "/games/theimpossiblequiz/index.html",
+    "image": "/games/theimpossiblequiz/tiq.avif"
+  },
+  {
+    "name": "wbwwb",
+    "url": "/games/wbwwb/index.html",
+    "image": "/games/wbwwb/wbwwb.webp"
+  },
+  {
     "name": "1on1soccer",
     "url": "/games/1on1soccer/index.html",
     "image": "/games/1on1soccer/logo.jpg"
