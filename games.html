@@ -8,17 +8,17 @@
     /* Full-screen iframe style */
     iframe {
       position: absolute;
-      top: 75px; /* Start the iframe 75px below the top to prevent overlap with navbar */
+      top: 30px; /* Start the iframe 75px below the top to prevent overlap with navbar */
       left: 0;
       width: 100%;
-      height: calc(100vh - 75px); /* Adjust the iframe height to fill the remaining screen space after navbar */
+      height: 100%;/*calc(100vh - 90px); /* Adjust the iframe height to fill the remaining screen space after navbar */
       border: none;
     }
 
     /* Navbar container to hold buttons and logo */
     .navbar {
       position: fixed;
-      top: 2px; /* Offset the navbar slightly from the top */
+      top: 9px; /* Offset the navbar slightly from the top */
       left: 10px; /* Optional, adjust for padding */
       width: calc(100% - 40px); /* Make navbar take full width with some padding */
       padding: 10px;
@@ -28,11 +28,14 @@
       align-items: center; /* Center items vertically */
       z-index: 9999;
 
-      /* Rainbow animation for background */
-      background-size: 500% 100%; /* Make the gradient very large to scroll smoothly */
-      background-color: #4b28ff;
-    }
+      /* Transparent background with subtle blur effect */
+      background: transparent; /* Make the navbar completely transparent */
+      backdrop-filter: blur(1.5px); /* Subtle blur effect for the area behind the navbar */
+      -webkit-backdrop-filter: blur(1.5px); /* Safari support */
 
+      /* Subtle border with transparency */
+      border: 2px solid rgba(255, 255, 255, 0.2); /* Light, transparent white border */
+    }
 
     /* Style for individual nav buttons */
     .nav-button {
@@ -86,7 +89,6 @@
     <button id="fullscreen-button" class="nav-button" onclick="toggleFullScreen()">
       <i class="fas fa-expand"></i>
     </button>
-    <h2>HYDRA FOR THE WIN #2024 LMAOO</h2>
     <!-- Logo -->
     <img src="assets/iconbetter.png" alt="Logo" class="logo"> <!-- Update the path to your logo image -->
   </div>
