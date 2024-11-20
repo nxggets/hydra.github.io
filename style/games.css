@@ -21,7 +21,7 @@
   }
 
   #game-links a:hover {
-    transform: scale(1.2) rotate(5tdeg);
+    transform: scale(1.2) rotate(5deg);
     box-shadow: 0 0 20px rgba(0, 21, 255);
     background-color: #0d2b76; /* Change this to your desired background color */
   }
