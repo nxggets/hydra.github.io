@@ -31,7 +31,7 @@ if (
     link.rel = "icon";
     link.href = icon;
 
-    iframe.src = "https://hydra-better.vercel.app/";
+    iframe.src = "main.html";
     style.position = "fixed";
     style.top = style.bottom = style.left = style.right = 0;
     style.border = style.outline = "none";
