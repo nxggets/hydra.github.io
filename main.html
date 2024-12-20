@@ -86,7 +86,7 @@ fetch('/games/games.json')
   })
   .then(games => {
     const gameLinksContainer = document.getElementById('game-links');
-    const totalGamesElement1 = document.querySelector('footer h1');
+    const totalGamesElement = document.querySelector('footer h1');
     const searchBox = document.getElementById('search-box'); // Get the search box element
 
     // Function to display games
@@ -117,7 +117,7 @@ fetch('/games/games.json')
       });
 
       // Update the total games count in the footer
-      totalGamesElement.textContent = `TOTAL GAMES: ${filteredGames.length}!`;
+      totalGamesElement.textContent = `The <strong>Chromium Network</strong> team wishes yall a merry chrismas💫`;
     }
 
     // Display all games initially
