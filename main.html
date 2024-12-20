@@ -38,7 +38,8 @@
   <br>
   <footer>
     <br>
-    <h1>The <strong class="rainbow">Chromium Network</strong> team wishes yall a merry chrismas💫</h1>
+    <h1>TOTAL GAMES:</h1>
+    <h2>The <strong class="rainbow">Chromium Network</strong> team wishes yall a merry chrismas💫</h2>
   </footer>
   <!-- START POPUP FOR WELCOME -->
   <div class="modal" id="popup">
@@ -117,7 +118,7 @@ fetch('/games/games.json')
       });
 
       // Update the total games count in the footer
-      totalGamesElement.textContent = `The <strong>Chromium Network</strong> team wishes yall a merry chrismas💫`;
+      totalGamesElement.textContent = `TOTAL GAMES: ${filteredGames.length}!`;
     }
 
     // Display all games initially
