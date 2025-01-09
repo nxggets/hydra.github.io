@@ -1,5 +1,100 @@
 [
   {
+    "name": "stateio",
+    "url": "https://kaizo-assets.onrender.com/games/stateio/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/stateio/icon.webp"
+  },
+  {
+    "name": "stealingthediamond",
+    "url": "https://kaizo-assets.onrender.com/games/stealingthediamond/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/stealingthediamond/diamante.avif"
+  },
+  {
+    "name": "superhero",
+    "url": "https://kaizo-assets.onrender.com/games/superhero/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/superhero/cover.png"
+  },
+  {
+    "name": "supermeatboy",
+    "url": "https://kaizo-assets.onrender.com/games/supermeatboy/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/supermeatboy/icon.png"
+  },
+  {
+    "name": "temple",
+    "url": "https://kaizo-assets.onrender.com/games/temple/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/temple/cover.png"
+  },
+  {
+    "name": "terrifried",
+    "url": "https://kaizo-assets.onrender.com/games/terrifried/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/terrifried/cover.png"
+  },
+  {
+    "name": "territorialio",
+    "url": "https://kaizo-assets.onrender.com/games/territorialio/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/territorialio/favicon.ico"
+  },
+  {
+    "name": "tetris",
+    "url": "https://kaizo-assets.onrender.com/games/tetris/about.html",
+    "image": "https://kaizo-assets.onrender.com/games/tetris/icon.png"
+  },
+  {
+    "name": "themehotel",
+    "url": "https://kaizo-assets.onrender.com/games/themehotel/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/themehotel/themehotel.png"
+  },
+  {
+    "name": "thirtydollarwebsite",
+    "url": "https://kaizo-assets.onrender.com/games/thirtydollarwebsite/index.html",
+    "image": "https://kaizo-assets.onrender.com/assets/notfound.png"
+  },
+  {
+    "name": "thisistheonlylevel",
+    "url": "https://kaizo-assets.onrender.com/games/thisistheonlylevel/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/thisistheonlylevel/logo.png"
+  },
+  {
+    "name": "thisistheonlylevel2",
+    "url": "https://kaizo-assets.onrender.com/games/thisistheonlylevel2/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/thisistheonlylevel2/icon.png"
+  },
+  {
+    "name": "thumbfighter",
+    "url": "https://kaizo-assets.onrender.com/games/thumbfighter/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/thumbfighter/thumbfighter.png"
+  },
+  {
+    "name": "tom2",
+    "url": "https://kaizo-assets.onrender.com/games/tom2/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/tom2/cover.png"
+  },
+  {
+    "name": "tombofthemask",
+    "url": "https://kaizo-assets.onrender.com/games/tombofthemask/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/tombofthemask/cover.png"
+  },
+  {
+    "name": "townscaper",
+    "url": "https://kaizo-assets.onrender.com/games/townscaper/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/townscaper/icon.png"
+  },
+  {
+    "name": "train",
+    "url": "https://kaizo-assets.onrender.com/games/train/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/train/cover.png"
+  },
+  {
+    "name": "wallsmash",
+    "url": "https://kaizo-assets.onrender.com/games/wallsmash/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/wallsmash/icon.png"
+  },
+  {
+    "name": "weavesilk",
+    "url": "https://kaizo-assets.onrender.com/games/weavesilk/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/weavesilk/icon.png"
+  },
+  {
     "name": "shape",
     "url": "https://kaizo-assets.onrender.com/games/shape/index.html",
     "image": "https://kaizo-assets.onrender.com/games/shape/cover.png"
