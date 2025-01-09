@@ -1,5 +1,55 @@
 [
   {
+    "name": "shape",
+    "url": "https://kaizo-assets.onrender.com/games/shape/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/shape/cover.png"
+  },
+  {
+    "name": "shapez",
+    "url": "https://kaizo-assets.onrender.com/games/shapez/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/shapez/cover.png"
+  },
+  {
+    "name": "skate",
+    "url": "https://kaizo-assets.onrender.com/games/skate/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/skate/cover.png"
+  },
+  {
+    "name": "skibiditoilet",
+    "url": "https://kaizo-assets.onrender.com/games/skibiditoilet/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/skibiditoilet/logo.png"
+  },
+  {
+    "name": "skibiditoiletattack",
+    "url": "https://kaizo-assets.onrender.com/games/skibiditoiletattack/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/skibiditoiletattack/loading-logo.png"
+  },
+  {
+    "name": "slope-ball",
+    "url": "https://kaizo-assets.onrender.com/games/slope-ball/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/slope-ball/icon.jpg"
+  },
+  {
+    "name": "sonic",
+    "url": "https://kaizo-assets.onrender.com/games/sonic/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/sonic/cover.svg"
+  },
+  {
+    "name": "sponge",
+    "url": "https://kaizo-assets.onrender.com/games/sponge/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/sponge/cover.png"
+  },
+  {
+    "name": "stack",
+    "url": "https://kaizo-assets.onrender.com/games/stack/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/stack/icon.png"
+  },
+  {
+    "name": "star",
+    "url": "https://kaizo-assets.onrender.com/games/star/index.html",
+    "image": "https://kaizo-assets.onrender.com/games/star/cover.png"
+  },
+  {
     "name": "roblox",
     "url": "/games/roblox/index.html",
     "image": "../assets/notfound.png"
