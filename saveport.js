@@ -3,7 +3,7 @@ const path = require('path');
 const { color, log, red, green, cyan, cyanBright } = require('console-log-colors');
 
 // Base URL for your assets
-const gameUrl = "https://kaizo-assets.onrender.com/";
+const gameUrl = "https://kaizo-theassetsvro.onrender.com/";
 
 // Directory where your games are stored
 const gamesDirectory = path.join(__dirname, 'games');
